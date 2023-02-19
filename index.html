@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <title>Incriptador</title>
+</head>
+<body>
+    <div class="contente__alura">
+      <img src="/Imagenes/Logo.png" alt="imagen de logo de Alura" class="logo__Alura"/>
+    </div>
+    <!-- principal -->
+    <div class="container">
+      <textarea
+        name="textEncriptar"
+        id="areaEncriptar"
+        class="areaEncriptar"
+        placeholder="Ingrese el texto aquí"
+      ></textarea>
+      <div class="alerta__text">
+        
+        <p class="texto">Solo letras minúsculas y sin acentos</p>
+      </div>
+      <div class="botones">
+        <button class="botonStyle btn__encriptar">Encriptar</button>
+        <button class="botonStyle btn__desencriptar">Desencriptar</button>
+      </div>
+    </div>
+
+    <!-- aside -->
+    <aside class="cuadro__aside">
+      <textarea name="texto encriptado"class="areaEncriptar tex_encriptado texto ocultar"></textarea>
+      <img
+        src="/Imagenes/Muñeco.png"
+        alt="imagen de Muñeco"
+        class="img__munieco elements"
+      />
+      <p class="texto text__bold text__1 elements">Ningún mensaje fue encontrado</p>
+      <p class="texto text__1 elements">
+        Ingresa el texto que desees encriptar o desencriptar.
+      </p>
+        <p class="txtcopiado ocultar">copiado</p>
+        <button class="botonStyle btn__desencriptar boton__aside ocultar">Copiar</button>
+    </aside>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
